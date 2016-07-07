@@ -3,7 +3,6 @@ html, body {
     height: 100%;
     width: 100%;
     margin:0;
-	padding:0;
 }
 
 p, h1, h2, h3, h4, h5, h6, ul, li, a {
@@ -124,6 +123,8 @@ Responsive Grid Section
     width: 100%;
     min-height: 100%;
     height: 100%;
+    
+	padding:100px;
 }
 
 /*....................................................................................................................
@@ -155,34 +156,57 @@ Content Section
     
 }
 
-.left {
-    overflow: hidden;
-    min-height: 50px;
-    border: 2px dashed #f0f
-}
-
-.right {
-    float: right;
-    width: 50px;
-    min-height: 50px;
-    margin-left: 10px;
-    border: 2px dashed #00f
-}
-
 #sidebar {
     height: 100%;
-    background: red;
     width: 300px;
     float: left;
+    background: #4E6378;
+}
+
+.logo {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    padding: 10px;
+}
+
+.logo img {
+    height: 60px;
+}
+
+#sidebar nav{
+    
+}
+
+#sidebar nav ul li{
+    padding: 0px;
+    width: 100%
+}
+
+#sidebar nav ul li i{
+    padding: 15px;
+    color: #DDDDDD;
+    width: 40px
+}
+
+#sidebar nav ul li a{
+    color: #DDDDDD;
+    height: 100%
 }
 
 #page-content {
     height: 100%;
     min-height: 100px;
     margin-left: 300px;
-    background: blue;
 }
 
+.col-x-5 {
+    width: 20%;
+    float: left;
+    padding: 15px;
+    border: 1px solid;
+    height: 200px;
+}
 /*....................................................................................................................
 
 Footer Section
