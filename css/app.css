@@ -3,28 +3,37 @@ html, body {
     height: 100%;
     width: 100%;
     margin:0;
-}
-
-body {
-    padding: 100px;
+    
+    padding: 000px;
+    background: #444C63; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#444C63, #B17986, #374553); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#444C63, #B17986, #374553); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#444C63, #B17986, #374553); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#444C63, #B17986, #374553); /* Standard syntax */
 }
 
 #container {
     height: 100%;
+    margin: 100px;
 }
 
 #content {
     height: 100%;
+    min-height: 100%;
 }
 
-.row {
+#content > .row {
     max-width: 100%;
     width: 100%;
-    height: 100%;
+    min-height: 100%;
 }
 
 #sidebar {
     background: #4E6378;
+    height: 100%;
+}
+
+#sidebar {
     height: 100%;
 }
 
@@ -52,5 +61,68 @@ body {
 }
 
 #page-content {
-    height: 100%;
+    height: auto;
+    background: #eee;
+}
+
+.photos img {
+    height: 150px;
+}
+
+.photos p {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    padding: 3px;
+}
+
+#page-content .row {
+    
+}
+
+.header-photo {
+    padding: 0px;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+.header-photo p {
+    padding: 0;
+    margin: 0;
+}
+
+.selectors {
+    text-align: right;
+    padding-right: 0px;
+}
+
+.selectors a{
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+.active {
+    background: #444C63;
+}
+
+.header-top {
+    border-bottom: 1px dotted #ddd;
+    font-size: 13px;
+    padding: 15px 0;
+}
+
+.header-bottom {
+    padding: 15px 0;
+}
+
+.name {
+    text-align: right;
+}
+
+.col-x-5 {
+    width: 20%;
+    float: left;
+    padding: 15px;
+    border: 0px dotted;
 }
