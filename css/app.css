@@ -1,36 +1,29 @@
-html, body {
-    background: #ecf0f1;
-    height: 100%;
-    width: 100%;
-    margin:0;
-    
-    padding: 000px;
-    background: #444C63; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#444C63, #B17986, #374553); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#444C63, #B17986, #374553); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#444C63, #B17986, #374553); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#444C63, #B17986, #374553); /* Standard syntax */
-}
 
 #container {
-    height: 100%;
-    margin: 100px;
+    min-height: 100%;
+    padding: 100px 00px;
+    background: #444C63;
+    background: -webkit-linear-gradient(#444C63, #B17986, #374553);
+    background: -o-linear-gradient(#444C63, #B17986, #374553);
+    background: -moz-linear-gradient(#444C63, #B17986, #374553);
+    background: linear-gradient(#444C63, #B17986, #374553);
+}
+
+.row {
+    max-width: 84rem;
 }
 
 #content {
     height: 100%;
     min-height: 100%;
-}
-
-#content > .row {
-    max-width: 100%;
-    width: 100%;
     min-height: 100%;
+    background: #ecf0f1;
+    background: #4E6378;
 }
 
 #sidebar {
     background: #4E6378;
-    height: 100%;
+    min-height: 100%;
 }
 
 #sidebar {
