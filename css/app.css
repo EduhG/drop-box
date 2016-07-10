@@ -119,3 +119,48 @@
     padding: 15px;
     border: 0px dotted;
 }
+
+.size, .img_name {
+    padding: 0 !important;
+    margin: 0 !important;
+    font-size: 10px;
+}
+
+/* item styles */
+.item-container {
+    border: 1px solid #dde;
+    padding: 2px;
+    background: #fff;
+}
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 70%;
+}
+
+.image-container img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.image-details-container {
+    padding: 0px;
+    background: #eee;
+    margin-top: 2px;
+}
+.image-details {
+    position: relative;
+    overflow: hidden;
+    height: auto;
+    padding: 5px;
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
