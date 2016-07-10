@@ -47,11 +47,17 @@
 #sidebar ul li a {
     padding-left: 15px;
     color: #ddd;
+    font-size: 15px;
+}
+
+.active a{
+    background: #4E6378 !important;
+    color: #fff !important;
 }
 
 #sidebar ul li a i{
     width: 30px;
-    font-size: 20px;
+    font-size: 17px;
     color: deepskyblue
 }
 
@@ -69,14 +75,20 @@
 .progress {
     height: 7px;
     background: #888;
-    margin-bottom: 60px !important;
+    margin-bottom: 80px !important;
+}
+
+.account {
+    padding: 10px 0;
+    text-align: center;
+    border: 2px solid deepskyblue;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 .acc_details a{
-    padding: 15px 34px;
+    padding: 10px 20px;
     width: 100%;
-    border: 2px solid deepskyblue;
-    border-radius: 5px;
     color: #ddd;
 }
 
