@@ -53,6 +53,22 @@
     font-size: 20px;
 }
 
+.acc_details {
+    padding-top: 300px;
+}
+
+.acc_details p{
+    padding: 0;
+    margin: 10px 0;
+    color: #eee;
+    font-weight: bolder;
+}
+
+.progress {
+    height: 7px;
+    background: #888;
+}
+
 #page-content {
     height: auto;
     background: #eee;
