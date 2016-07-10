@@ -67,6 +67,15 @@
 .progress {
     height: 7px;
     background: #888;
+    margin-bottom: 60px !important;
+}
+
+.acc_details a{
+    padding: 15px 33px;
+    width: 100%;
+    border: 2px solid deepskyblue;
+    border-radius: 5px;
+    color: #eee;
 }
 
 #page-content {
