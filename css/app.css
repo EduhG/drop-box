@@ -46,11 +46,13 @@
 
 #sidebar ul li a {
     padding-left: 15px;
+    color: #ddd;
 }
 
 #sidebar ul li a i{
     width: 30px;
     font-size: 20px;
+    color: deepskyblue
 }
 
 .acc_details {
@@ -71,11 +73,11 @@
 }
 
 .acc_details a{
-    padding: 15px 33px;
+    padding: 15px 34px;
     width: 100%;
     border: 2px solid deepskyblue;
     border-radius: 5px;
-    color: #eee;
+    color: #ddd;
 }
 
 #page-content {
@@ -156,6 +158,11 @@
 
 .name {
     text-align: right;
+}
+
+.name i{
+    padding-right: 10px;
+    color: #999;
 }
 
 .top-actions {
@@ -310,6 +317,16 @@
     border: 1px solid #dde;
     padding: 2px;
     background: #fff;
+}
+
+.item-container:hover {
+    background: #eee;
+    cursor: pointer;
+}
+
+.item-container:hover .image-details-container{
+    background: #ddd;
+    cursor: pointer;
 }
 
 .image-container {
